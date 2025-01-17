@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Maplewood Review</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Hover Effects for Team Members */
+        .team-member {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .team-member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .team-member p.bio {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 5px;
+        }
+        .social-icons {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .team-member:hover .social-icons {
+            opacity: 1;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #5A2E0E;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #D4A373;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Maplewood Review</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Issues</a></li>
+            <li><a href="submission.html">Samplenaess Prize</a></li>
+            <li><a href="submission.html">Submit</a></li>
+            <li><a href="about.html">What we are about</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>🌿 About Maplewood Review</h1>
+        <p>Fostering Creativity, Celebrating Bold Voices</p>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>
+            The Maplewood Review is a platform dedicated to amplifying diverse voices and championing original storytelling. Our mission is to foster a community where bold ideas and brilliant writing are celebrated.
+        </p>
+        <h3>🌎 What We Stand For:</h3>
+        <ul>
+            <li><strong>Inclusivity:</strong> We welcome writers from all backgrounds and cultures.</li>
+            <li><strong>Creativity:</strong> We celebrate unconventional and experimental forms of writing.</li>
+            <li><strong>Community:</strong> We build connections between writers and readers worldwide.</li>
+        </ul>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="images/editor_in_chief.jpg" alt="Editor-in-Chief">
+                <h3>Aaliyah Carter</h3>
+                <p>Editor-in-Chief</p>
+                <p class="bio">Aaliyah leads our editorial vision, empowering diverse voices to shine through every issue.</p>
+                <div class="social-icons">
+                    <a href="#">🌐</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📸</a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/creative_director.jpg" alt="Creative Director">
+                <h3>Malik Thompson</h3>
+                <p>Creative Director</p>
+                <p class="bio">Malik brings bold ideas to life with his innovative design strategies and artistic direction.</p>
+                <div class="social-icons">
+                    <a href="#">🌐</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📸</a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/content_manager.jpg" alt="Content Manager">
+                <h3>Nia Robinson</h3>
+                <p>Content Manager</p>
+                <p class="bio">Nia curates thought-provoking content that engages and inspires our readers.</p>
+                <div class="social-icons">
+                    <a href="#">🌐</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📸</a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/marketing_director.jpg" alt="Marketing Director">
+                <h3>Darius Bennett</h3>
+                <p>Marketing Director</p>
+                <p class="bio">Darius connects our community through dynamic marketing campaigns and outreach.</p>
+                <div class="social-icons">
+                    <a href="#">🌐</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📸</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Maplewood Review. All rights reserved.</p>
+        <div class="socials">
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>
